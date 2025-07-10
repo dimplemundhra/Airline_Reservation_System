@@ -63,6 +63,8 @@ JOIN Seats s ON b.seat_id = s.seat_id
 JOIN Prices p ON f.flight_id = p.flight_id AND s.class = p.class
 WHERE b.booking_id = 1;
 
+```sql
+
 ## 📈 Views & Reports
 available_flights_view – Flights with available seats
 
