@@ -45,27 +45,8 @@ The **Airline Reservation System** is a relational database project built using 
 - 🔐 Role-based access simulation with GRANT  
 
 
-## 🔎 Sample Queries
+## 📈 Views & Reports
 
-```sql
--- 1. Search available seats for a flight
-SELECT seat_number, class, price
-FROM Seats
-JOIN Prices ON Seats.flight_id = Prices.flight_id AND Seats.class = Prices.class
-WHERE Seats.flight_id = 1 AND Seats.is_available = TRUE;
-
--- 2. Calculate total fare for a booking
-SELECT c.cust_name, f.airline, s.seat_number, s.class, p.price
-FROM Bookings b
-JOIN Customers c ON b.customer_id = c.customer_id
-JOIN Flights f ON b.flight_id = f.flight_id
-JOIN Seats s ON b.seat_id = s.seat_id
-JOIN Prices p ON f.flight_id = p.flight_id AND s.class = p.class
-WHERE b.booking_id = 1;
-
-###
-
-📈 Views & Reports
 available_flights_view – Flights with available seats
 
 booking_summary_view – Bookings with customer & flight details
@@ -76,7 +57,8 @@ Revenue Report – Total bookings & earnings per flight
 
 Top 3 Routes – Most frequently booked routes
 
-🚀 How to Run
+## 🚀 How to Run
+
 Open MySQL Workbench
 
 Run airline_reservation_system.sql script to create schema, tables, triggers, views
@@ -85,11 +67,23 @@ Execute queries to test booking system
 
 Customize as per your needs (e.g., more flights, fare logic)
 
-👩‍💻 Author
+## 📂 Project Structure
+
+📁 airline_reservation_system/
+├── airline_reservation_system.sql
+├── README.md
+├── ER_Diagram.png (optional)
+└── LICENSE
+
+## 👩‍💻 Author
 Dimple Mundhra
 📍 Kolkata, India
-📧 dimple7@gmail.com
+📧 dimplemundhra24@gmail.com
 
 
-📄 License
+## 📄 License
 This Project is for my own educational learning purpose
+
+
+
+
