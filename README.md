@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/status-Completed-success)
 ![SQL](https://img.shields.io/badge/Language-SQL-blue)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Author](https://img.shields.io/badge/Author-Dimple%20Mundhra-purple)
 
 
