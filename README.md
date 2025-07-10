@@ -72,8 +72,7 @@ Customize as per your needs (e.g., more flights, fare logic)
 📁 airline_reservation_system/
 ├── airline_reservation_system.sql
 ├── README.md
-├── ER_Diagram.png (optional)
-└── LICENSE
+├── ER_Diagram.png
 
 ## 👩‍💻 Author
 Dimple Mundhra
