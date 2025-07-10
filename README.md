@@ -65,7 +65,7 @@ WHERE b.booking_id = 1;
 
 ###
 
-## 📈 Views & Reports
+📈 Views & Reports
 available_flights_view – Flights with available seats
 
 booking_summary_view – Bookings with customer & flight details
@@ -76,7 +76,7 @@ Revenue Report – Total bookings & earnings per flight
 
 Top 3 Routes – Most frequently booked routes
 
-## 🚀 How to Run
+🚀 How to Run
 Open MySQL Workbench
 
 Run airline_reservation_system.sql script to create schema, tables, triggers, views
@@ -85,11 +85,11 @@ Execute queries to test booking system
 
 Customize as per your needs (e.g., more flights, fare logic)
 
-## 👩‍💻 Author
+👩‍💻 Author
 Dimple Mundhra
 📍 Kolkata, India
 📧 dimple7@gmail.com
 
 
-##📄 License
+📄 License
 This Project is for my own educational learning purpose
